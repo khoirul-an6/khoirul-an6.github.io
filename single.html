@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Anam css -->
+    <link rel="stylesheet" href="css/styleku.css" />
+
+    <title>Kiwo Store</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="asset/elements/logo_small.png" alt="Kiwo Store" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-uppercase">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Designer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+          </ul>
+
+          <a href="#" class="nav-link text-white">
+            <i class="far fa-bell"></i> My Cart
+            <span style="color: yellow">(12)</span></a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Breadscrum -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb py-2">
+          <li class="breadcrumb-item">
+            <a href="#" style="text-decoration: none">Category</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Single Product
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- Akhir Breadscrum -->
+
+    <!-- produk -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <figure class="figure">
+            <img
+              src="asset/elements/p-7@2x.png"
+              class="figure-img img-fluid rounded"
+              style="max-height: 500px"
+            />
+            <figcaption
+              class="figure-caption anak-foto d-flex justify-content-between"
+            >
+              <a href="#">
+                <img
+                  src="asset/elements/p-1.png"
+                  style="height: 50px; width: 50px"
+              /></a>
+              <a href="#">
+                <img
+                  src="asset/elements/p-1.png"
+                  style="height: 50px; width: 50px"
+              /></a>
+              <a href="#">
+                <img
+                  src="asset/elements/p-1.png"
+                  style="height: 50px; width: 50px"
+              /></a>
+              <a href="#">
+                <img
+                  src="asset/elements/p-1.png"
+                  style="height: 50px; width: 50px"
+              /></a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-3">
+          <div class="row">
+            <h4>Jeans: Giordano XI</h4>
+            <p>IDR 290.000.000</p>
+            <div class="col mb-5">
+              <button
+                class="btn btn-sm"
+                style="background-color: gray; color: white"
+              >
+                <i class="fas fa-minus-circle"></i>
+              </button>
+              <span class="mx-1">20</span>
+              <button class="btn btn-success btn-sm" style="color: white">
+                <i class="fas fa-plus-circle"></i>
+              </button>
+            </div>
+
+            <button class="btn btn-warning mb-2 text-white">Add To Card</button>
+            <button class="btn btn-secondary">Add To Wishlist</button>
+            <div class="garis"></div>
+            <div class="row disain-by mt-5">
+              <h5 class="p-0">Designed By</h5>
+              <div
+                class="col-3 p-0 align-content-center d-flex justify-content-center"
+              >
+                <img
+                  src="asset/elements/d-2.png"
+                  class="rounded-circle"
+                  style="width: 60px; height: 60px"
+                />
+              </div>
+              <div class="col-7">
+                <div class="row">
+                  <h4>Anne Mortgery</h4>
+                  <p>14,5k<span> Followers</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Produk -->
+
+    <!-- Description -->
+    <section class="deskripsi p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="description-tab"
+                  data-bs-toggle="tab"
+                  href="#description"
+                  role="tab"
+                  aria-controls="description"
+                  aria-selected="true"
+                  >Description</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="review-tab"
+                  data-bs-toggle="tab"
+                  href="#review"
+                  role="tab"
+                  aria-controls="review"
+                  aria-selected="false"
+                  >Reviews (20)</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active produk-review"
+                id="description"
+                role="tabpanel"
+                aria-labelledby="description-tab"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia optio temporibus asperiores rerum deserunt ex
+                  doloribus saepe magni fugiat minus ab, molestiae laborum!
+                  Dolorum non, corporis id inventore fugit explicabo accusantium
+                  blanditiis doloremque unde architecto commodi quam incidunt,
+                  Maxime minima sapiente porro.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ipsum, mollitia laborum nemo voluptatem iste, magnam
+                  molestias, tempora excepturi corporis debitis ducimus earum
+                  repellat optio eum sit odio iure pariatur quis rerum
+                  perspiciatis praesentium quibusdam nisi. Unde ad iure quisquam
+                  incidunt laborum adipisci voluptatum, fuga illum sit
+                  consequatur voluptas vitae.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade produk-review"
+                id="review"
+                role="tabpanel"
+                aria-labelledby="review-tab"
+              >
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>Produknya bagus dan bahannya enak dipakai</p>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>Produknya bagus dan bahannya enak dipakai</p>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>Produknya bagus dan bahannya enak dipakai</p>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>Produknya bagus dan bahannya enak dipakai</p>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>Produknya bagus dan bahannya enak dipakai</p>
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-1">
+                    <img
+                      src="asset/elements/angga_photo.png"
+                      class="rounded-circle"
+                      style="max-height: 50px"
+                    />
+                  </div>
+                  <div class="col">
+                    <h5>Angga Risky</h5>
+                    <p>
+                      Produknya bagus dan bahannya enak dipakai Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Impedit
+                      perferendis cum neque libero hic dignissimos dicta tempora
+                      consequuntur repellendus deserunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Description -->
+
+    <!-- Similar Product -->
+    <section class="similar-produk">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Similar Produk</h3>
+            <p>Pakaian pelengkap produk diatas</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <figure class="figure">
+              <img src="asset/designers/d4.jpeg" class="figure-img img-fluid" />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>Hatty Bomb</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div
+                    class="col align-items-center d-flex justify-content-end"
+                  >
+                    <p style="font-size: 18px">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="asset/designers/d4.jpeg" class="figure-img img-fluid" />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>Hatty Bomb</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div
+                    class="col align-items-center d-flex justify-content-end"
+                  >
+                    <p style="font-size: 18px">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-4">
+            <figure class="figure">
+              <img src="asset/designers/d4.jpeg" class="figure-img img-fluid" />
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>Hatty Bomb</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div
+                    class="col align-items-center d-flex justify-content-end"
+                  >
+                    <p style="font-size: 18px">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Similar Product -->
+
+    <!-- footer -->
+    <footer class="border-top">
+      <div class="container pt-4">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <img src="asset/elements/logo_small.png" />
+          </div>
+          <div class="col-4 text-end">
+            <img src="asset/elements/asset-2.png" alt="" />
+            <img src="asset/elements/asset-3.png" alt="" />
+            <img src="asset/elements/asset-4.png" alt="" />
+          </div>
+        </div>
+        <div class="row mt-3 justify-content-between">
+          <div class="col-5">
+            <p>All Right Reserved by Kiwo Store Copyright@2020</p>
+          </div>
+          <div class="col-6">
+            <nav class="nav justify-content-end text-uppercase">
+              <a class="nav-link" href="#">jobs</a>
+              <a class="nav-link" href="#">developer</a>
+              <a class="nav-link" href="#">terms</a>
+              <a class="nav-link" href="#">privacy policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>

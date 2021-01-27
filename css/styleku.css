@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  background-color: #171717;
+}
+
+.nav-item {
+  font-weight: 200;
+  margin-right: 20px;
+}
+
+.nav-item.active a {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+/* carousel */
+.carousel {
+  background-color: #171717;
+  height: 400px;
+}
+
+.eid h3,
+.designer h3,
+.similar-produk h3,
+.judul h3,
+.modal-checkout h3 {
+  color: #1b2690;
+  font-weight: bold;
+  font-family: "Lora";
+}
+.eid p,
+.designer p,
+.similar-produk p,
+.judul p,
+.modal-checkout p {
+  color: #b7b7b7;
+}
+
+.figure h5 {
+  font-weight: normal;
+  color: #171717;
+}
+
+.figure-hover {
+  position: relative;
+}
+
+.figure-hover a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-hover:hover a {
+  opacity: 1;
+}
+
+.figure-img {
+  max-height: 200px;
+}
+
+.designer figure img {
+  height: 150px;
+  width: 150px;
+}
+
+.carousel {
+  margin-top: 65px;
+}
+
+.breadcrumb {
+  margin-top: 65px;
+}
+
+.anak-foto {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  padding: 5px;
+  margin: auto;
+  transform: translateY(-40px);
+}
+
+.garis {
+  border-top: solid 1px #e0e0e0;
+  margin-top: 20px;
+}
+
+.disain-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+.disain-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.disain-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+.disain-by p span {
+  color: #b7b7b7;
+}
+
+.deskripsi {
+  background-color: #f6f7fb;
+  height: 350px;
+}
+
+.deskripsi .tab-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.deskripsi .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+}
+
+.deskripsi .produk-review {
+  height: 300px;
+  overflow: scroll;
+  padding-left: 0;
+  padding-left: 10px;
+}
+
+.similar-produk {
+  margin-top: 180px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.checkout-detail {
+  background-color: #e2e2e2;
+  border: 1px solid #eaeaea;
+}
